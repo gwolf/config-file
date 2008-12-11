@@ -1,0 +1,9 @@
+1.4 (07-Sep-2006):
+ - Initial CPAN upload (was a native Debian package before)
+
+1.41 (20-Oct-2007):
+ - Dropped the old, deprecated ConfigFile naming
+
+1.42 (04-Mar-2008):
+ - Explicitly closing the file after reading it, closing a bug on
+   wperl.exe on win32. Thanks to Peter Valdemar Mørch for spotting it!

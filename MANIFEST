@@ -1,0 +1,8 @@
+CHANGES
+Makefile.PL
+t/config
+t/test.t
+MANIFEST
+lib/Config/File.pm
+lib/ConfigFile.pm
+META.yml                                 Module meta-data (added by MakeMaker)
