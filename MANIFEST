@@ -1,14 +1,3 @@
-./Build.PL
-./CHANGES
-./lib/Config/File.pm
-./lib/ConfigFile.pm
-./LICENSE
-./Makefile.PL
-./MANIFEST
-./META.yml
-./README
-./t/config
-./t/test.t
 Build.PL
 CHANGES
 lib/Config/File.pm
@@ -19,4 +8,6 @@ MANIFEST
 META.yml
 README
 t/config
+t/pod.t
+t/pod_coverage.t
 t/test.t

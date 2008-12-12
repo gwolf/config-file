@@ -13,3 +13,6 @@
    (and more easily) keep up-to-date and valid metadata
  - Added Test::Pod, Test::Pod::Coverage
  - Keeping CPANTS / Kwalitee happy! (hopefully)
+
+1.46 (11-Dec-2008):
+ - The 'stupid typos' release :-/
