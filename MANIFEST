@@ -1,8 +1,22 @@
+./Build.PL
+./CHANGES
+./lib/Config/File.pm
+./lib/ConfigFile.pm
+./LICENSE
+./Makefile.PL
+./MANIFEST
+./META.yml
+./README
+./t/config
+./t/test.t
+Build.PL
 CHANGES
-Makefile.PL
-t/config
-t/test.t
-MANIFEST
 lib/Config/File.pm
 lib/ConfigFile.pm
-META.yml                                 Module meta-data (added by MakeMaker)
+LICENSE
+Makefile.PL
+MANIFEST
+META.yml
+README
+t/config
+t/test.t

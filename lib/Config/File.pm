@@ -1,7 +1,5 @@
-#!/usr/bin/perl -w
-
 package Config::File;
-
+use warnings;
 use strict;
 use Carp;
 use Exporter;
@@ -10,7 +8,7 @@ use IO::File;
 use vars qw($VERSION @ISA @EXPORT_OK);
 @ISA = qw/Exporter/;
 @EXPORT_OK = qw/read_config_file/;
-$VERSION='1.42';
+$VERSION='1.45';
 
 
 sub read_config_file($) {
@@ -73,7 +71,7 @@ my $config_hash = Config::File::read_config_file($configuration_file);
 
 C<read_config_file> parses a simple configuration file and stores its
 values in an anonymous hash reference. The syntax of the configuration
-file is quite simple:
+file is as follows:
 
     # This is a comment
     VALUE_ONE = foo
@@ -174,8 +172,8 @@ it and/or modify it under the terms of the GPL.
 
 Version 1.4
 Copyright (c) 2002 Sebastien J. Gross. All rights reserved.
-Copyright (c) 2003,2006 Gunnar Wolf. All rights reserved.
+Copyright (c) 2003-2008 Gunnar Wolf. All rights reserved.
 This program is free software; you can redistribute it and/or modify
-it under the terms of the GPL.
+it under the terms of the GPL v2 (or later, at your choice).
 
 =cut

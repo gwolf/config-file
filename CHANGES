@@ -7,3 +7,9 @@
 1.42 (04-Mar-2008):
  - Explicitly closing the file after reading it, closing a bug on
    wperl.exe on win32. Thanks to Peter Valdemar Mørch for spotting it!
+
+1.45 (11-Dec-2008):
+ - Migrated from ExtUtils::MakeMaker to Module::Build, to properly
+   (and more easily) keep up-to-date and valid metadata
+ - Added Test::Pod, Test::Pod::Coverage
+ - Keeping CPANTS / Kwalitee happy! (hopefully)
