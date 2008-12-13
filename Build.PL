@@ -7,6 +7,7 @@ my $build = Module::Build->new(
     requires => {},
     recommends => {},
     build_requires => {Test::Pod => 0,
+		       Test::Pod::Coverage => 0,
 		       Module::Build => 0},
 
     create_makefile_pl => 'passthrough'
