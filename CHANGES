@@ -1,6 +1,8 @@
 UNRELEASED
+1.50 (20-Jan-2009):
  - Added Test::Pod::Coverage as a build dependency, as some CPANTS
    test hosts have died during the tests
+ - Removed the ConfigFile naming (deprecated for over a year)
 
 1.46 (11-Dec-2008):
  - The 'stupid typos' release :-/

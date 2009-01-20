@@ -1,7 +1,6 @@
 Build.PL
 CHANGES
 lib/Config/File.pm
-lib/ConfigFile.pm
 LICENSE
 Makefile.PL
 MANIFEST
